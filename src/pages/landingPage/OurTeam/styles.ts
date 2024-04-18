@@ -28,6 +28,11 @@ margin-top: 200px;
                 padding: 20px 30px;
                 padding-top: 62px;
                 position: relative;
+                cursor: pointer;
+                transition: all .2s linear;
+                &:hover{
+                    transform: translateY(-15px);
+                }
                 .founder{
                     position: absolute;
                     top:0;

@@ -22,6 +22,8 @@ margin-top: 200px;
             padding: 24px;
             border-radius: 4px;
             background: #3E383980;
+            cursor: pointer;
+            transition: all .2s linear;
             .icon{
                 position: relative;
                 z-index: 1;
@@ -50,6 +52,10 @@ margin-top: 200px;
             .desc{
                 margin-top: 25px;
                 font-size: 18px;
+            }
+
+            &:hover{
+                transform: translateY(-15px);
             }
         }
     }
