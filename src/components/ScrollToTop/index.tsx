@@ -28,8 +28,8 @@ export default ScrollToTop;
 const S = styled.div`
   position: fixed;
   z-index: 100;
-  right: -10px;
-  bottom: 60px;
+  right: 30px;
+  bottom: 100px;
   padding: 10px;
   cursor: pointer;
   z-index: 100%;
@@ -39,11 +39,13 @@ const S = styled.div`
       position: absolute;
       top: 0;
       left: 50%;
-      transform: translate(-50%, -185%);
+      transform: translate(-50%, -130%);
     }
     .text {
       transform: rotate(90deg);
       font-size: 18px;
+      width: 42px;
+      white-space: nowrap;
     }
   }
 
