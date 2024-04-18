@@ -64,7 +64,7 @@ margin-top: 200px;
                     display: flex;
                     align-items: center;
                     gap: 48px;
-                    display: none;
+                    /* display: none; */
                     .title{
                         font-size: 60px;
                         font-weight: 600;
@@ -75,7 +75,10 @@ margin-top: 200px;
                         font-size: 18px;
                         color: #0D0D0F;
                         max-width: 450px;
-                       
+                        opacity: 0;
+                        transition: all .5s linear;
+                        animation-delay: 0s;
+
                     }
                 }
                 .icon{
@@ -91,6 +94,8 @@ margin-top: 200px;
                     .item-content{
                         display: flex;
                         .desc{
+                            opacity: 1;
+                            transition-delay: 0.5s;
                         }
                     }
                     .icon{
