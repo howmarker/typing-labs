@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import BaseStyles from "./styles/BaseStyles";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ScrollToTop from "./components/ScrollToTop";
 
 const HomePage = lazy(() => import("./pages/landingPage"));
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
       </Routes>
       <BaseStyles />
+      <ScrollToTop />
     </Layout>
   );
 }
