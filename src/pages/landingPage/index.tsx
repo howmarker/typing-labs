@@ -3,7 +3,7 @@ import Banner from "./Banner";
 import AboutUs from "./AboutUs";
 import Problems from "./Problems";
 import Services from "./Services";
-import Process from "./Process/inde";
+import Process from "./Process";
 import OurPartners from "./OurPartners";
 import OurTeam from "./OurTeam";
 import Articles from "./Articles";

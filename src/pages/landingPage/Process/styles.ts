@@ -230,6 +230,10 @@ padding-top: 200px;
                             .title{
                                 font-size: 24px;
                             }
+                            .desc{
+                                display: block;
+                                opacity: 1;
+                            }
                         }
                    }
                     .icon{
