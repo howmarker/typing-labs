@@ -12,6 +12,14 @@ const Header = () => {
   const [toggle, setToggle] = useState(false);
   const isScroll = useCheckScrollY();
 
+  const handleClickScroll = (id: string) => {
+    const element = document.getElementById(id);
+    console.log(element);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <Styles className={classNames({ isScroll })}>
       <div className="container">
@@ -25,10 +33,18 @@ const Header = () => {
               <MdClose size={30} color="#fff" />
             </span>
             <div className="nav-list">
-              <Link to="" className="link">
+              <Link
+                to="/#team"
+                className="link"
+                onClick={() => handleClickScroll("team")}
+              >
                 Team
               </Link>
-              <Link to="" className="link">
+              <Link
+                to="/#partners"
+                className="link"
+                onClick={() => handleClickScroll("partners")}
+              >
                 Partners
               </Link>
               <Link to="" className="link">

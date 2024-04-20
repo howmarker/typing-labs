@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Styles = styled.div`
-margin-top: 200px;
+padding-top: 200px;
 .module{
     .content{
         margin-top: 30px;
@@ -37,7 +37,7 @@ margin-top: 200px;
 }
 
 @media only screen and (max-width: 1530px){
-    margin-top: 150px;
+    padding-top: 150px;
     .module{
         .content{
             .text{
@@ -48,7 +48,7 @@ margin-top: 200px;
 }
 
 @media only screen and (max-width: 1280px){
-    margin-top: 100px;
+    padding-top: 100px;
     .module{
         .content{
             .text{
@@ -68,7 +68,7 @@ margin-top: 200px;
 }
 
 @media only screen and (max-width: 768px){
-    margin-top: 80px;
+    padding-top: 80px;
     .module{
         .content{
             .text{
@@ -87,7 +87,7 @@ margin-top: 200px;
 }
 
 @media only screen and (max-width: 430px){
-    margin-top: 60px;
+    padding-top: 60px;
     .module{
         .content{
             margin-top: 24px;

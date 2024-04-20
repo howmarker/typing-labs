@@ -6,6 +6,10 @@ export default createGlobalStyle`
     font-family: "Montserrat";
     src: url("/fonts/ClashGrotesk-Variable.ttf");
   }
+
+html {
+    scroll-behavior: smooth;
+}
   
   *{
     box-sizing: border-box;

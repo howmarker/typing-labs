@@ -10,11 +10,15 @@ const Banner = () => {
       <div className="container">
         <div className="module">
           <p className="title" data-aos="fade-up">
-            TYPING
-            <ReactTyped strings={["LABS"]} typeSpeed={200} loop />
+            TYPING <span>LAB</span>
           </p>
           <p className="title-bt" data-aos="fade-up" data-aos-delay={100}>
-            A SUPER MCN ON BLOCKCHAIN
+            <ReactTyped
+              strings={["A SUPER MCN ON BLOCKCHAIN"]}
+              typeSpeed={160}
+              backSpeed={80}
+              loop
+            />
           </p>
           <p className="desc" data-aos="fade-up" data-aos-delay={200}>
             The Web3 Native Growth Agency Growing your Favourite Projects

@@ -55,6 +55,9 @@ overflow: hidden;
         line-height: 123%;
         color: #fff;
         font-weight: 700;
+        span{
+            font-weight: 700;
+        }
     }
     .desc{
         margin-top: 30px;

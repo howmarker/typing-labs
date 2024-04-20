@@ -6,7 +6,7 @@ import { dataPartner } from "./data";
 
 const OurPartners = () => {
   return (
-    <Styles>
+    <Styles id="partners">
       <div className="container">
         <div className="module">
           <Title idx="05" text="OUR PARTNERS" data-aos="fade-up" />

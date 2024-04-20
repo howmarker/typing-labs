@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 const OurTeam = () => {
   return (
-    <Styles>
+    <Styles id="team">
       <div className="container">
         <div className="module">
           <div className="head">
