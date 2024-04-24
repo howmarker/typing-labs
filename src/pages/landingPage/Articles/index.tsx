@@ -4,7 +4,7 @@ import Title from "@/components/Title";
 import { Link } from "react-router-dom";
 
 const url =
-  "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ryanwtripp";
+  "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@jacobpetergl";
 const Articles = () => {
   const [data, setData] = useState<any>(null);
 

@@ -66,10 +66,18 @@ const OurTeam = () => {
                   </div>
                 </div>
                 <div className="social">
-                  <Link to="" className="link">
+                  <Link
+                    to="https://twitter.com/0xAndrewMoh"
+                    target="__blank"
+                    className="link"
+                  >
                     <IconTwitter />
                   </Link>
-                  <Link to="" className="link">
+                  <Link
+                    to="https://t.me/AndrewMoh"
+                    target="__blank"
+                    className="link"
+                  >
                     <IconTele />
                   </Link>
                 </div>
@@ -114,10 +122,18 @@ const OurTeam = () => {
                   </div>
                 </div>
                 <div className="social">
-                  <Link to="" className="link">
+                  <Link
+                    to="https://twitter.com/KentDefi"
+                    target="__blank"
+                    className="link"
+                  >
                     <IconTwitter />
                   </Link>
-                  <Link to="" className="link">
+                  <Link
+                    to="https://t.me/KentDefi"
+                    target="__blank"
+                    className="link"
+                  >
                     <IconTele />
                   </Link>
                 </div>
@@ -166,10 +182,18 @@ const OurTeam = () => {
                   </div>
                 </div>
                 <div className="social">
-                  <Link to="" className="link">
+                  <Link
+                    to="https://twitter.com/0x99Gohan"
+                    target="__blank"
+                    className="link"
+                  >
                     <IconTwitter />
                   </Link>
-                  <Link to="" className="link">
+                  <Link
+                    to="https://t.me/GohanThreador"
+                    target="__blank"
+                    className="link"
+                  >
                     <IconTele />
                   </Link>
                 </div>

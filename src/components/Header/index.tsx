@@ -54,14 +54,18 @@ const Header = () => {
           </div>
           <div className="header-action">
             <div className="social">
-              <Link to="" className="item">
+              <Link
+                to="https://twitter.com/0xtypinglab"
+                target="__blank"
+                className="item"
+              >
                 <IconX />
               </Link>
-              <Link to="" className="item">
+              <Link to="" target="__blank" className="item">
                 <IconTelegram />
               </Link>
             </div>
-            <button className="btn">Contract</button>
+            <button className="btn">Contact</button>
             <span className="toggle" onClick={() => setToggle(!toggle)}>
               <HiMiniBars3 size={36} color="#fff" />
             </span>
