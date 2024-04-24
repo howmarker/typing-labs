@@ -24,7 +24,7 @@ const Articles = () => {
               <span>Lastest news</span> from TypingLab
             </p>
             <div className="news-list" data-aos="fade-up" data-aos-delay={200}>
-              {data?.map((el: any, idx: number) => {
+              {data?.slice(0, 6)?.map((el: any, idx: number) => {
                 return <ArticleComponent article={el} index={idx} />;
               })}
             </div>
